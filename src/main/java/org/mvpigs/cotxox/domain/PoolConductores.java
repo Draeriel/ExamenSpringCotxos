@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class PoolConductores {
-	
+
 	private ArrayList<Conductor> poolConductores = new ArrayList<>();
 
 	/**
@@ -12,19 +12,19 @@ public class PoolConductores {
 	 */
 
 	public PoolConductores() {};
-	
+
 	public PoolConductores(ArrayList<Conductor> poolConductores){
 		this.poolConductores = poolConductores;
 	}
 
-	/** 
+	/**
 	 * Getters y setter
 	 */
-	
+
 	public ArrayList<Conductor> getPoolConductores(){
 		return this.poolConductores;
 	}
-	
+
 	/**
 	 * Lógica de la clase
 	 */
@@ -43,5 +43,5 @@ public class PoolConductores {
 		}
 		return conductor;
 	}
-	
+
 }
