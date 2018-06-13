@@ -44,7 +44,14 @@ public class Carrera {
 	 * Constructores: necesitamos el constructor por defecto
 	 * para trabajar con Spring JPA
 	 */
-
+	public Carrera(String id, String origen, String destino, int distancia, int tiempo_esperado) {
+		this.id = id;
+		this.origen = origen;
+		this.destino = destino;
+		this.distancia = distancia;
+		this.tiempoEsperado = tiempo_esperado;
+	}
+	
 	public Carrera(String tarjetaCredito){
 		this.tarjetaCredito = tarjetaCredito;
 	}
